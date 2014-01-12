@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register src="UserControls/CategoryList.ascx" tagname="CategoryList" tagprefix="uc1" %>
+
+<%@ Register src="UserControls/OccasionList.ascx" tagname="OccasionList" tagprefix="uc2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+ <form id="form1" runat="server">
+    <div class="Window">
+         <div class="Logo">
+               <asp:HyperLink ID="HyperLink1" ImageUrl="~/Images/Logo.png" runat="server" ToolTip="" Height="130px" Width="950px"  />
+            </div>
+         <div class="Header">            
+                    <asp:HyperLink ID="HeaderLink" ImageUrl="~/Images/banner1.png" runat="server" ToolTip="Happy Birthday" Height="350px" Width="950px"  />
+         </div> 
+         <div class="Main">        
+           
+            <div class="Left">          
+                <div class="Container">                   
+                    <uc1:CategoryList ID="CategoryList1" runat="server" />
+
+                             
+
+                    <uc2:OccasionList ID="OccasionList1" runat="server" />
+
+                             
+
+                </div>        
+
+            </div>        
+            <div class="Right">          
+                         
+                <div class="Contents">     
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  </asp:ContentPlaceHolder>          
+
+                </div>        
+
+            </div>      
+
+        </div>  
+        <div class="footer">
+            <p style="text-align:center;vertical-align:text-bottom; color:white; ">©2013 Celebratoz All rights reserved. </p>
+        </div>  
+     </div>
+ 
+
+ </form> 
+</body>
+</html>

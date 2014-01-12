@@ -1,0 +1,30 @@
+﻿body {  font-family:Calibri;  font-size:12pt;  color: Black; background-color:#FFF}
+ a {  text-decoration: none;  color:black; } 
+ a:hover {  text-decoration: underline; }
+.Window { margin:-15px auto; width:950px; height:1500px;}
+
+.Window .Logo {width:950px; height:130px; background-color:#4A1C5E; margin:-15px auto; }
+.Window .Header{  margin:0px auto; height: 350px ;width:950px; text-align: center; } 
+.Window .Main {  width: 950px;  margin: auto; height:1080px;  }
+.Window .Main .Left { width: 210px; height:1077px; float: left; } 
+.Window .Main .Left .Container {   float: left; padding:0px;} 
+.Window .Main .Right {  width: 737px; height:1065px; float: right; border:1px solid #c4bebe; margin-top:10px; position:relative; } 
+.Window .Main .Right .Contents{  margin: 10px;  float: left;}
+.CategoryList,.OccasionList{  border: #c4bebe 1px solid;   text-align: center;  margin-top: 20px; display:block; } 
+.CategoryListHead,.OccasionListHead ,.CatalogTitle { background-color: #c4bebe; color:black; font-size:20px;line-height: 25px; } 
+a.CategoryUnselected,a.OccasionUnselected {  line-height: 25px;  text-decoration: none;  color:#4A1C5E ; display:block;} 
+a.CategoryUnselected:hover,a.OccasionUnselected:hover {  text-decoration: none; color:#4A1C5E; background-color:rgba(196, 179, 179, 0.59) ; background-size:inherit; display:block; } 
+a.CategorySelected,a.OccasionSelected {  line-height: 25px;  font-weight: bold;  text-decoration: none;  display:block; }
+
+.ProductsListHead , .CategoryTitle ,.OccasionTitle,.ProductName {  color:#4A1C5E; font-size:26px;  }
+.ProductList img { float: left;  margin-right: 5px;  vertical-align: top; } 
+
+.Product {  border:1px solid #c4bebe; height:280px ; width:200px ; margin:15px; text-align:center; }
+.ProductTitle {text-decoration:none ; display:block; background-color: #c4bebe; font-size:20px; text-align:center ; margin:-4px -4px 0px 0px; }
+
+.ProductDetailsLeft {  float:left;  }
+.ProductDetailsRight { float:right; height:350px; width:350px;  margin:0px 5px;  }
+.CatalogDescription {  color: Black;  font-weight: bold;  font-size: 14px; }
+
+
+.footer {  width:950px; height:130px; background-color:#4A1C5E; margin:0px auto; vertical-align:bottom; }

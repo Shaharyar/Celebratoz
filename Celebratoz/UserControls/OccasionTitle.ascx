@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="OccasionTitle.ascx.cs" Inherits="UserControls_OccasionTitle" %>
+<asp:Label ID="OccasionTitle" CssClass="OccasionTitle" runat="server"></asp:Label>
